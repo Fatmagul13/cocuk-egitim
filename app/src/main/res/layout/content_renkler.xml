@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fatmagulyurtseven.cocukegitim.Activity.RenklerActivity"
+    tools:showIn="@layout/activity_renkler">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txtRenkIsim"
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31dp"
+            android:text="TEXT"
+            android:textColor="@android:color/black"
+            android:textSize="50sp" />
+
+        <ImageView
+            android:id="@+id/imgRenkResim"
+            android:layout_width="500dp"
+            android:layout_height="300dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/beyaz"
+            tools:layout_editor_absoluteX="128dp"
+            tools:layout_editor_absoluteY="65dp" />
+
+        <ImageButton
+            android:id="@+id/imgbtnIleriRenk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:backgroundTint="@android:color/transparent"
+            app:srcCompat="@drawable/ileri" />
+
+        <ImageButton
+            android:id="@+id/imgbtnGeriRenk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:backgroundTint="@android:color/transparent"
+            app:srcCompat="@drawable/geri" />
+
+        <ImageButton
+            android:id="@+id/imgbtnSesRenk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@android:color/transparent"
+            app:srcCompat="@drawable/ses" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

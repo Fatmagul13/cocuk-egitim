@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fatmagulyurtseven.cocukegitim.Activity.RenklerTestActivity"
+    tools:showIn="@layout/activity_renkler_test">
+
+    <ImageView
+        android:id="@+id/testRenklerRes"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_above="@+id/btnRenklerA"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/elma"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <Button
+        android:id="@+id/btnRenklerA"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnRenklerB"
+        android:layout_alignBottom="@+id/btnRenklerB"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="19dp"
+        android:background="@color/colorTest"
+        android:text="Button"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <Button
+        android:id="@+id/btnRenklerB"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnRenklerC"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="34dp"
+        android:layout_marginStart="13dp"
+        android:background="@color/colorTest"
+        android:text="Button"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <Button
+        android:id="@+id/btnRenklerC"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ileriSoruRenkler"
+        android:layout_alignStart="@+id/btnRenklerB"
+        android:layout_marginBottom="22dp"
+        android:background="@color/colorTest"
+        android:text="Button"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <ImageButton
+        android:id="@+id/ileriSoruRenkler"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/btnRenklerA"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ileri" />
+
+    <Button
+        android:id="@+id/btnRenklerD"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnRenklerA"
+        android:layout_alignTop="@+id/btnRenklerC"
+        android:background="@color/colorTest"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/textView11renk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnRenklerC"
+        android:layout_below="@+id/btnRenklerC"
+        android:text="PUAN:"
+        android:textColor="@android:color/black"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/txtPuanRenk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView11renk"
+        android:layout_marginStart="18dp"
+        android:layout_toEndOf="@+id/textView11renk"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

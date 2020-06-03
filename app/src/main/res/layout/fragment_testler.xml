@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fatmagulyurtseven.cocukegitim.Fragment.TestlerFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bu">
+
+
+        <Button
+            android:id="@+id/btningilizcetest"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+
+            android:layout_above="@+id/btnhayvanlartest"
+            android:layout_alignStart="@+id/btnrenklertest"
+            android:layout_marginBottom="23dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="İNGİLİZCE" />
+
+        <Button
+            android:id="@+id/btnmat"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="33dp"
+            android:backgroundTint="@color/colorHı"
+            android:text="MATEMATİK" />
+
+        <Button
+            android:id="@+id/btnhayvanlartest"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+
+
+            android:layout_above="@+id/btnrenklertest"
+            android:layout_alignStart="@+id/btningilizcetest"
+            android:layout_marginBottom="33dp"
+            android:backgroundTint="@color/pink"
+            android:text="HAYVANLAR" />
+
+        <Button
+            android:id="@+id/btnrenklertest"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_above="@+id/btnmeyvelertest"
+            android:layout_alignStart="@+id/btnmeyvelertest"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="@color/orange"
+            android:text="RENKLER" />
+
+        <Button
+            android:id="@+id/btnmeyvelertest"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_above="@+id/btnmat"
+            android:layout_alignStart="@+id/btnmat"
+            android:layout_marginBottom="22dp"
+            android:backgroundTint="@color/colorTook"
+            android:text="MEYVELER" />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_anasayfa"
+            android:icon="@drawable/home1"
+            android:title="ANA SAYFA" />
+        <item
+            android:id="@+id/nav_ingilizce"
+            android:icon="@drawable/ingilizce"
+            android:title="İNGİLİZCE" />
+        <item
+            android:id="@+id/nav_testler"
+            android:icon="@drawable/test"
+            android:title="TESTLER" />
+    </group>
+    <item android:title="Communicate">
+    <menu>
+        <item
+            android:id="@+id/nav_paylas"
+            android:icon="@drawable/ic_menu_share"
+            android:title="PAYLAŞ" />
+
+    </menu>
+</item>
+
+</menu>

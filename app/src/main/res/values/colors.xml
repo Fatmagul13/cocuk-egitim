@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3d3d84</color>
+    <color name="colorPrimaryDark">#8a90b3</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTool">#cd87d5</color>
+    <color name="colorHı">#72c4dd</color>
+    <color name="colorPrimaryDar">#e393e6</color>
+    <color name="colorT">#fbcc68</color>
+    <color name="colorTo">#47d997</color>
+    <color name="colorTook">#ac41dd</color>
+    <color name="colorTest">#87ccd5</color>
+    <color name="green">#60f77e</color>
+    <color name="red">#f63b4e</color>
+    <color name="purple">#e649ec</color>
+    <color name="pink">#f1a9f8</color>
+    <color name="orange">#a4b4f1</color>
+</resources>

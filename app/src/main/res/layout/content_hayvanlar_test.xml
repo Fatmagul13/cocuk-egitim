@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fatmagulyurtseven.cocukegitim.Activity.HayvanlarTestActivity"
+    tools:showIn="@layout/activity_hayvanlar_test">
+
+    <ImageView
+    android:id="@+id/testHayvanRes"
+    android:layout_width="wrap_content"
+    android:layout_height="200dp"
+    android:layout_above="@+id/btnHayvanlarA"
+    android:layout_alignParentStart="true"
+    android:layout_marginBottom="50dp"
+    android:scaleType="centerInside"
+    app:srcCompat="@drawable/kedi"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="71dp" />
+
+    <Button
+        android:id="@+id/btnHayvanlarA"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnHayvanlarB"
+        android:layout_alignBottom="@+id/btnHayvanlarB"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="19dp"
+        android:background="@color/colorTest"
+        android:text="Button"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <Button
+        android:id="@+id/btnHayvanlarB"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnHayvanlarC"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="34dp"
+        android:layout_marginStart="13dp"
+        android:background="@color/colorTest"
+        android:text="Button"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <Button
+        android:id="@+id/btnHayvanlarC"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ileriSoruHayvan"
+        android:layout_alignStart="@+id/btnHayvanlarB"
+        android:layout_marginBottom="22dp"
+        android:background="@color/colorTest"
+        android:text="Button"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <ImageButton
+        android:id="@+id/ileriSoruHayvan"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/btnHayvanlarA"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ileri" />
+
+    <Button
+        android:id="@+id/btnHayvanlarD"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnHayvanlarA"
+        android:layout_alignTop="@+id/btnHayvanlarC"
+        android:background="@color/colorTest"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/textView11hayvan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnHayvanlarC"
+        android:layout_below="@+id/btnHayvanlarC"
+        android:text="PUAN:"
+        android:textColor="@android:color/black"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/txtPuanHayvan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView11hayvan"
+        android:layout_marginStart="18dp"
+        android:layout_toEndOf="@+id/textView11hayvan"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+</RelativeLayout>
